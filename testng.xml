@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:/public/djlperformancetesting/app/src/test/java/com/enpasos/djl/tests/djldocs/chapter_linear_networks/linear_regression_scratch/App1Test.java"><classes/></test></suite>
