@@ -1,6 +1,5 @@
 package com.enpasos.djl.tests;
 
-import ai.djl.ndarray.gc.SwitchGarbageCollection;
 import com.enpasos.djl.tests.common.App;
 import com.enpasos.djl.tests.common.PerformanceResult;
 import com.enpasos.djl.tests.djldocs.chapter6_convolutional_neural_networks.lenet.App5;
@@ -18,10 +17,10 @@ import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 class Tests {
 
-    @BeforeAll
-    static void switchGarbageCollectionOn() {
-        SwitchGarbageCollection.on();
-    }
+//    @BeforeAll
+//    static void switchGarbageCollectionOn() {
+//        //SwitchGarbageCollection.on();
+//    }
 
     @Test
     void runApp1() {
